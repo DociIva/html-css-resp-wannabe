@@ -71,3 +71,22 @@ img {
 .clear {
   clear: both;
 }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 419px){
+  .row{
+    max-width: 419px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    min-width: 419px;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    min-width: 419px;
+  }
+}
+  
