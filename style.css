@@ -73,20 +73,53 @@ img {
 }
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 419px){
-  .row{
-    max-width: 419px;
-    margin-top: 10px;
-    padding-bottom: 10px;
-  }
+@media screen and (max-width: 419px) {
+  .row {
+    width: 419px;
+    margin: 0;
+    padding-bottom: 5px;
+    }
   #lezioni .row>.left,
-  #lezioni .row>.right{
-    min-width: 419px;
-  }
+  #lezioni .row>.right,
   #steps .row>.left,
   #steps .row>.central,
-  #steps .row>.right{
-    min-width: 419px;
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third  {
+    width: 90%;
+    margin-top: 1rem; 
   }
+  #lezioni .row img{
+    max-height: 100px;
+    }
+  #lezioni {
+    text-align: left;
+  }
+  #steps {
+    text-align: left;
+  }
+  #steps img {
+    max-height: 80px;
+    padding-left: 38%;
+  }
+  #why{
+    text-align: left;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 1.5rem;
+  }
+  #why .row img {
+    max-height: 70px;
+    margin-left: 35%;
+  }
+
+  .container.grey{
+    width: 100%;
+  }
+
+
 }
-  
+
